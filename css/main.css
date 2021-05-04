@@ -1,0 +1,38 @@
+/*==== BASE STYLINGS ==== */
+
+html {
+  font-size: 1em;
+  height: 100%;
+}
+
+body {
+  background-color: #E5EFF5;
+  font-family: "Karla", sans-serif;
+  height: 100%;
+  padding: 75px 25px 0 25px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+.about {
+  background-color: #FFF;
+}
+
+.sign-up {
+  background-color: #2BB3B1;
+  width: 100%;
+}
+
+.why-us {
+  background-color: #4ABEBD;
+  width: 100%;
+}
