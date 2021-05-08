@@ -76,6 +76,7 @@ h3 {
 .sign-up h2 {
   color: #FFF;
   font-size: 1.15em;
+  padding-right: 40px;
 }
 
 .sign-up h3 {
@@ -143,4 +144,43 @@ h3 {
 .why-us li {
   font-size: .875em;
   margin: 6px 0;
+}
+
+/*======================================
+
+    TABLET STYLING
+========================================*/
+
+@media only screen and (min-width: 768px) {
+
+body {
+  padding: 200px 100px 10px 100px
+}
+
+
+
+.about {
+  padding: 30px;
+
+}
+
+.about p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.sign-up,
+.why-us {
+  width: 50%;
+
+}
+
+.sign-up {
+  border-bottom-left-radius: 10px;
+
+}
+
+.why-us {
+  border-bottom-left-radius: 0px;
+
 }
