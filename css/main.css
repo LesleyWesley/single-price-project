@@ -7,11 +7,16 @@ html {
 body {
   background-color: #E5EFF5;
   font-family: "Karla", sans-serif;
-  padding: 75px 25px 0 25px;
+  padding-top: 75px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .card {
-  width: 100%;
+  width: 90%;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +25,8 @@ body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
   margin-bottom: 100px;
 }
+
+
 
 h2 {
   font-size: 1.25em;
@@ -41,6 +48,8 @@ h3 {
   border-top-right-radius: 10px;
   width: 100%;
 }
+
+
 
 .about h2 {
   color: #2BB3B1;
