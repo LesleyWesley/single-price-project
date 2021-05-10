@@ -43,12 +43,19 @@ h3 {
 
 .about {
   background-color: #FFF;
-  padding: 20px;
+  padding: 20px 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
+.about .content-container {
+  width: 85%;
+}
 
 
 .about h2 {
@@ -71,15 +78,19 @@ h3 {
 .sign-up {
   background-color: #2BB3B1;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .sign-up .content-container {
+  width: 85%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .sign-up h2 {
@@ -127,7 +138,11 @@ h3 {
   width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 20px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .why-us .content-container {
@@ -135,6 +150,7 @@ h3 {
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
+  width: 85%;
 }
 
 .why-us h2 {
